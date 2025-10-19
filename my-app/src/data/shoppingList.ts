@@ -8,6 +8,8 @@ import type { ShoppingList } from "../types";
 export const initialShoppingList: ShoppingList = {
   id: "list-1",
   name: "Víkendový nákup",
+  owner: "user-1",
+  members: ["user-1", "user-2"],
   items: [
     { id: "item-1", name: "Chléb", qty: 2, done: false },
     { id: "item-2", name: "Mléko", qty: 1, done: true },
