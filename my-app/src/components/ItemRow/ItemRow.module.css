@@ -1,0 +1,7 @@
+.row { display: flex; justify-content: space-between; align-items: center; background: #fff; border: 1px solid #eef2f7; padding: 10px; border-radius: 8px; }
+.left { display: flex; align-items: center; gap: 10px; cursor: pointer; }
+.checkbox { width: 18px; height: 18px; }
+.doneText { text-decoration: line-through; color: var(--muted); }
+.right { display: flex; gap: 8px; align-items: center; }
+.qty { font-size: 14px; color: var(--muted); }
+.delete { border: none; background: transparent; color: var(--danger); cursor: pointer; font-size: 16px; padding: 4px 6px; }

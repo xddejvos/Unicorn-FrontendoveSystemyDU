@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title { margin: 0; font-size: 20px; }
+.actions { display: flex; gap: 8px; }
+.editRow { display: flex; gap: 8px; width: 100%; align-items: center; }
+.input { flex: 1; padding: 8px 10px; border-radius: 6px; border: 1px solid #e6e9ee; background: #fff; }
+.button { padding: 8px 10px; border: none; background: transparent; color: var(--accent); cursor: pointer; }
+.buttonPrimary { padding: 8px 12px; border-radius: 6px; border: none; background: var(--accent); color: white; cursor: pointer; }

@@ -1,0 +1,4 @@
+.container { max-width: 720px; margin: 0 auto; background: var(--card); padding: 20px; border-radius: 8px; box-shadow: 0 4px 14px rgba(16,24,40,0.06); }
+.controls { margin-top: 12px; margin-bottom: 12px; }
+.items { margin-top: 8px; }
+.resetNote { margin-top: 16px; font-size: 13px; color: var(--muted); }
